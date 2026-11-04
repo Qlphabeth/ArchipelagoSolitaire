@@ -10,6 +10,16 @@ from .options import FreeCellOptions
 
 class FreeCellWebWorld(WebWorld):
     theme = "partyTime"
+    tutorials = [
+        Tutorial(
+            "Multiworld Setup Guide",
+            "A guide to setting up FreeCell. This guide covers multiworld, and website.",
+            "English",
+            "setup_en.md",
+            "setup/en",
+            ["alphabeth_"],
+        )
+    ]
 
 
 class FreeCellWorld(World):
