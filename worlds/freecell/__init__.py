@@ -1,7 +1,7 @@
 from collections import Counter
 from typing import Any, Dict, List
 
-from BaseClasses import Region
+from BaseClasses import Region, Tutorial
 from worlds.AutoWorld import WebWorld, World
 
 from . import items, locations
